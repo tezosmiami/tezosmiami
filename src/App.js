@@ -9,7 +9,8 @@ export const App = () => {
     <div>
    
    <img src={bkground} alt="Miami"></img>
-   <img src={logo} className="image1" alt="Tezos"></img>
+   <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
+   <img src={logo} className="image1" alt="Tezos"></img></a>
   
   <div className="logo">
    
