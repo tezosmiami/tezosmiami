@@ -1,5 +1,5 @@
 
-import logo from './TezosLogo.png';
+import logo from './node.png';
 import bkground from './Miami.jpeg';
 import "./App.css";
 import twitter from './twitter.png';
@@ -8,13 +8,13 @@ export const App = () => {
   return (
     <div>
    
-   <img src={bkground} alt="Miami"></img>
-   <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
-   <img src={logo} className="image1" alt="Tezos"></img></a>
+
+  
+   <img src={logo} className="image1" alt="Tezos"></img>
   
   <div className="logo">
    
-  <a href="https://twitter.com/tezosmiami" target="blank" rel="noopener noreferrer"><img src={twitter} className="twitter" alt="Twitter"/>
+  <a href="https://twitter.com/distribasel" target="blank" rel="noopener noreferrer"><img src={twitter} className="twitter" alt="Twitter"/>
   </a>
   <a href="https://hicetnunc.miami" target="blank" rel="noopener noreferrer">
   <svg styles="logo" viewBox="0 0 196.87 53.23" fill="#000000">
