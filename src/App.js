@@ -1,6 +1,5 @@
 
 import logo from './node.png';
-import bkground from './Miami.jpeg';
 import "./App.css";
 import twitter from './twitter.png';
 
