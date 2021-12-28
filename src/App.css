@@ -19,22 +19,21 @@ img {
 }
 
 .fruta {
-  width: 55px;  
-  height: 55px;
+  width: 44px;  
+  height: 44px;
   object-fit: cover;
   border-radius: 100%;
 }
 .logo {
-
+  display:flex;
   position: absolute;
-  justify-items: center;
   justify-content: center;
   text-align: center;
-  height:  33px;
   width:    100%;
   z-index:1;
   bottom:66px;
   background-color:transparent;
+  margin-left: -23px;
 }
 
 svg{
