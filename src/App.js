@@ -3,7 +3,7 @@ import logo from './TezosLogo.png';
 import bkground from './Miami.jpeg';
 import "./App.css";
 import twitter from './twitter.png';
-
+import fruitensalda from './fruitensalada.jpg';
 export const App = () => {
   return (
     <div>
@@ -35,9 +35,11 @@ export const App = () => {
                     transform="translate(-32.03 -26.27)"
                   />
                 </svg>
-       </a>        
+       </a>    
+  <a href="https://fruitensalada.xyz" target="blank" rel="noopener noreferrer">    
+  <img className="fruta" src={fruitensalda} alt="fruitensalda"/></a>
   </div>
- 
+  
    </div>
 
    );

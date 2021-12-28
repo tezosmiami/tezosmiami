@@ -18,6 +18,12 @@ img {
   object-fit: contain;
 }
 
+.fruta {
+  width: 55px;  
+  height: 55px;
+  object-fit: cover;
+  border-radius: 100%;
+}
 .logo {
 
   position: absolute;
@@ -34,6 +40,7 @@ img {
 svg{
   height:  44px;
   width:    88px;
+  padding-right: 66px;
 }
 
 .twitter{
