@@ -1,17 +1,44 @@
 
 import logo from './TezosLogo.png';
-import bkground from './Miami.jpeg';
+import bkground from './dusk.jpeg';
 import "./App.css";
 import twitter from './twitter.png';
 import fruitensalda from './fruitensalada.jpg';
+
+const sites = [
+    { icon: '❶', name: 'singulare', link: 'https://singulare.xyz' },
+    { icon: '◾ ', name: 'pixils', link: 'https://pixils.xyz' }, 
+    { icon: '☯ ', name: 'gletchard', link: 'htttps://gletchard.xyz' },
+    { icon: '📷 ', name: 'fotographia', link:'https://fotographia.xyz' }
+   
+]
+
 export const App = () => {
+
+
   return (
     <div>
-   
-   <img src={bkground} alt="Miami"></img>
-   <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
+    
+   {/* <img src={bkground}  className='back' alt="Miami"></img> */}
+
+  <div>
+  <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
    <img src={logo} className="image1" alt="Tezos"></img></a>
-  
+   </div>
+   <div style={{marginTop: '22px'}}>
+    {sites.map((i) => {
+        return <div className='sites' key={i.name}>
+                  <a href={i.link} target="blank" rel="noopener noreferrer">{[i.icon,' ',i.name, ' ',i.icon]}</a>
+              </div>
+      }
+    )}
+
+</div>
+  <div>
+{/* <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
+   <img src={logo} className="image1" alt="Tezos"></img></a> */}
+
+   </div>
   <div className="logo">
    
   <a href="https://twitter.com/tezosmiami" target="blank" rel="noopener noreferrer"><img src={twitter} className="twitter" alt="Twitter"/>

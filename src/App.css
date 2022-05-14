@@ -4,18 +4,17 @@
 
 
 img {
- position: absolute;
+ /* position: absolute; */
  width: 100%;
  height:100%;
  object-fit: none;
 }
 
 .image1 {
-  margin-left: 33%;
-  margin-top: 6%;
-  width: 33%;
+  width: 88px;
   height: auto;
   object-fit: contain;
+
 }
 
 .fruta {
@@ -25,21 +24,22 @@ img {
   border-radius: 100%;
 }
 .logo {
-  display:flex;
   position: absolute;
+  display:flex;
+  flex-direction: row;
+  bottom: 33px;
   justify-content: center;
   text-align: center;
   width:    100%;
   z-index:1;
-  bottom:66px;
-  background-color:transparent;
-  margin-left: -23px;
+  color: lightblue;
 }
 
 svg{
   height:  44px;
   width:    88px;
   padding-right: 66px;
+  color: lightblue;
 }
 
 .twitter{
@@ -48,4 +48,52 @@ width: 44px;
 position: relative;
  padding-right: 66px;
  object-fit: contain;
+ color: lightskyblue; 
+}
+a{
+  text-decoration: none;
+color:black;
+}
+.sites{
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 33px;
+  background: #d15eee;
+  width:80%;
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  margin: 22px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.sites:hover{
+  transform: scale(1.03);
+
+}
+
+div{
+  display: flex;
+  flex-direction:column;
+  margin-top:11px;
+  flex-wrap:wrap;
+  width: 100vw;
+  height:auto;
+  align-content: center;
+  justify-content: space-between;
+
+}
+
+@media  (max-height: 600px) {
+  .logo {
+    margin-top: 22px;
+    position:relative;
+  }
+}
+
+@media  (min-width: 800px) {
+  .sites {
+    width: 55%;
+
+  }
 }
