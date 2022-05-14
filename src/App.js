@@ -6,7 +6,7 @@ import fruitensalda from './fruitensalada.jpg';
 
 const sites = [
     { icon: '❶', name: 'singulare', link: 'https://singulare.xyz' },
-    { icon: '◾ ', name: 'pixils', link: 'https://pixils.xyz' }, 
+    { icon: '■ ', name: 'pixils', link: 'https://pixils.xyz' }, 
     { icon: '☯ ', name: 'gletchard', link: 'htttps://gletchard.xyz' },
     { icon: '📷 ', name: 'fotographia', link:'https://fotographia.xyz' }
    
