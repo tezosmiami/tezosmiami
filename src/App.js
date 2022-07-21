@@ -1,5 +1,5 @@
 
-import logo from './TezosLogo.png';
+import logo from './tezosmiami11.jpeg';
 import "./App.css";
 import twitter from './twitter.png';
 import fruitensalda from './fruitensalada.jpg';
@@ -18,7 +18,7 @@ export const App = () => {
   return (
     <div>
       <div>
-        <a href="https://tezos.com" target="blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/tezosmiami" target="blank" rel="noopener noreferrer">
         <img src={logo} className="image1" alt="Tezos"></img></a>
       </div>
   
@@ -33,9 +33,10 @@ export const App = () => {
       <div />
 
       <div className="logo">
-        <a href="https://twitter.com/tezosmiami" target="blank" rel="noopener noreferrer">
+        {/* <a href="https://twitter.com/tezosmiami" target="blank" rel="noopener noreferrer">
           <img src={twitter} className="twitter" alt="Twitter"/>
-        </a> 
+        </a>  */}
+        
         <a href="https://hen.miami/tezosmiami" target="blank" rel="noopener noreferrer">
           <svg styles="logo" viewBox="0 0 196.87 53.23" fill="#000000">
             <path

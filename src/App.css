@@ -12,16 +12,19 @@ img {
 
 .image1 {
   width: 88px;
-  height: auto;
+  height: 88px;;
   object-fit: contain;
-
+  border-radius:60%;
+  border: 1px solid black;
+  /* padding: 10%; */
+  background-color: #641cfc; 
 }
 
 .fruta {
   width: 44px;  
   height: 44px;
   object-fit: cover;
-  border-radius: 100%;
+  /* border-radius: 10%; */
 }
 .logo {
   position: absolute;
@@ -56,9 +59,10 @@ a{
 }
 .sites{
   padding: 5px;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 33px;
   background: #d15eee;
+
   width:88%;
   display: flex; 
   flex-direction: column;
