@@ -27,15 +27,15 @@ img {
   /* border-radius: 10%; */
 }
 .logo {
-  position: absolute;
+  position: relative;
   display:flex;
   flex-direction: row;
-  bottom: 33px;
+  /* bottom: 33px; */
   justify-content: center;
   text-align: center;
+  margin-top:27px;
   width:    100%;
   z-index:1;
-  color: lightblue;
 }
 
 svg{
